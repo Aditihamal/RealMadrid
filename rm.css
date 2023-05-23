@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Caladea', serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(IMG-2911.jpg);
+    background-size: cover;
+    position: relative;
+}
+.nav{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9;
+}
+.nav .logo{
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:white;
+    letter-spacing: 1.5px;
+    float: left;
+}
+.nav .menu{
+    width: 45%;
+}
+.nav .menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav .menu ul li{
+    list-style: none;
+}
+.nav .menu ul li a{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+}
+.nav .menu .active{
+    color: red;
+}
+.match{
+    float: left;
+}
+.banner-clip-path{
+    
+    width: 20%;
+    height: 25%;
+    float: left;
+    background-image: url(Daco_4389037.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+@media (max-width: 991px) {
+    .nav {
+        width: 90%;
+    }
+    .nav .logo {
+        font-size: 4vw; 
+        text-align: center; 
+    }
+    .nav .menu ul {
+        flex-direction: column;
+        align-items: center; 
+        margin-top: 10px; 
+    }
+    .nav .menu ul li {
+        margin-bottom: 10px; 
+    }
+    .nav .menu ul li a {
+        font-size: 3vw; 
+    }
+    .banner-clip-path {
+        display: none; 
+    }
+}
+
+
+
+
+
+
+

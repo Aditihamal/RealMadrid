@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Caladea', serif;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.table{
+    margin: 20px 30px;
+    padding: 30px 30px;
+}
+@media (max-width: 767px) {
+    .table {
+      margin: 5%;
+      padding: 5%;
+    }
+    
+    .table img {
+      max-width: 90%;
+    }
+    
+    .table p {
+      font-size: 4vw;
+    }
+    
+    header {
+      font-size: 6vw;
+    }
+}
